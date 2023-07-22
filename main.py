@@ -12,7 +12,7 @@ Created on Fri Nov 30 09:11:12 2018
 ###############################################################################
 import sys
 import os
-sys.path.append('../lib/')
+sys.path.append('./sPOD/lib/')
 print('getcwd: ', os.getcwd())
 import numpy as np
 from numpy import exp, mod,meshgrid, cos, sin, exp, pi
